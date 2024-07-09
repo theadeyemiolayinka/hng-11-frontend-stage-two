@@ -1,0 +1,28 @@
+.productName {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.twenty_4_or_16 {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+@media screen and (max-width: 425px) {
+    .productName {
+        max-width: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .productName {
+        max-width: 150px;
+    }
+
+    .twenty_4_or_16 {
+        width: 16px !important;
+        height: 16px !important;
+    }
+}
